@@ -23,6 +23,10 @@ with open("README.md", "wt") as f:
     f.write("```\n")
 
     for mesh in bpy.data.meshes:
+      if not ("io7m_meta_measured" in mesh):
+        continue
+      #endif
+
       mesh_poly_count = 0
       for poly in mesh.polygons:
         if len(poly.vertices) > 3:

@@ -1,7 +1,9 @@
 Baguette
 ===
 
-![Preview](preview.jpg)
+![Preview](preview_preview_high.jpg)
+![Preview](preview_preview_low.jpg)
+![Preview](preview_preview_wire.jpg)
 
 
 License
@@ -33,9 +35,6 @@ Mesh: baguette_mesh
   Textures:
     Image: baguette_albedo 1024x512
     Image: baguette_bump 1024x1024
-
-Mesh: ground_mesh
-  Polygons: 2
 
 ```
 
