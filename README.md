@@ -22,6 +22,12 @@ Scene statistics
 ===
 
 ```
+Mesh: baguette_low_poly
+  Polygons: 248
+  Textures:
+    Image: baguette_low_albedo 256x256
+    Image: baguette_low_normal 256x256
+
 Mesh: baguette_mesh
   Polygons: 248
   Textures:
